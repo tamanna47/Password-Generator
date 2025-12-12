@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Config>
+  <!-- Default length for generated passwords -->
+  <Length>18</Length>
+
+  <!-- Character sets to use -->
+  <UseUpper>true</UseUpper>
+  <UseLower>true</UseLower>
+  <UseDigits>true</UseDigits>
+  <UseSymbols>true</UseSymbols>
+
+  <!-- Store metadata in an SQLite DB? (true/false) -->
+  <StoreToDb>false</StoreToDb>
+  <DatabasePath>passwords.db</DatabasePath>
+</Config>
